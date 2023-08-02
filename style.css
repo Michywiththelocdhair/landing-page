@@ -75,13 +75,14 @@ li {
 .container4 {
     display: flex;
     flex-direction: column;
-    margin: 8px;
+    margin-top: 8px;
     width: 100px;
     height: auto;
     text-align: justify;
     justify-content: space-between;
     color: #1f2937;
     font-size: 18px;
+    margin-bottom: 32px;
 }
 
 .container4 img {
@@ -91,6 +92,23 @@ li {
     flex-wrap: nowrap;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 16px 24px;
+}
 
+.author {
+    background-color: #e5e7eb;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-right: 16px;
+    padding-bottom: 32px;
+}
 
 
